@@ -52,11 +52,11 @@ nav a {
 }
 
 
-ul {
+nav ul {
     list-style-type: none;
 }
 
-ul li {
+nav ul li {
     display: inline;
     margin-right: 20px; 
 }
