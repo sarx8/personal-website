@@ -1,0 +1,286 @@
+body {
+    margin: 2px solid rgb(100, 85, 198);
+    padding: 2px solid rgb(78, 128, 203);
+    font-family:'Times New Roman', Times, serif
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.header {
+    background-color: #c081e2;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+img {
+    display: block; margin: auto;
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    border: 2px solid rgb(103, 103, 223)
+    font-size 18px;
+    line-height: 1.5;
+    color: #d598e4;
+}
+
+.container {
+    background-color: #cea3de;
+    border: 1px solid #4d3a60;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+
+nav {
+    background-color: #631bac; 
+}
+
+
+nav a {
+    color: #ffffff; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+nav {
+    padding: 10px 0; 
+    border: 5px solid #dbc5f1 
+}
+
+
+nav a:hover {
+    color: #d29eff; 
+    text-decoration: underline; 
+}
+
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #e2adeb;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info ul {
+    list-style: square inside;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #5f476f 
+}
+
+.contact-info li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.contact-info ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.contact-info ul li::after {
+    content: "\A";
+    white-space: pre;
+}
+
+
+nav a[href="contact.html"] {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family:'Times New Roman', Times, serif
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #e7bdfa;
+    color: white;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #df97e7;
+    font-family:'Times New Roman', Times, serif
+}
+
+.about-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f2f2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #dcc1e2;
+}
+
+footer {
+    text-align: center;
+    background-color: #885fb0;
+    color: white;
+    padding: 10px;
+}
+
+.about-section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+body, h1, h2, p {
+    margin: 2;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #885fb0;
+    color: #131313;
+    margin: 0; 
+}
+
+header {
+    background-color: #8f42f4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px; 
+}
+
+nav {
+    background-color: rgb(204, 126, 246);
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; 
+} 
+
+main h2 {
+    color: #b942f4; 
+}
+
+.project p {
+    font-size: 15px; 
+}
+
+.project:hover {
+    transform: scale(1.05); 
+}
+
+.project {
+    transition: box-shadow 0.3s ease-in-out;
+}
